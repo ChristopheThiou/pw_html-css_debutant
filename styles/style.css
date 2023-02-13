@@ -1,0 +1,16 @@
+body {
+    background-color:  silver;
+    font-family: 'Playfair Display', serif;
+}
+
+label,
+input,
+textarea,
+select {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+button {
+    background-color: seagreen;
+}

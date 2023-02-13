@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="C'est une page d'exercice en HTML">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Exo 1</title>
 </head>
 <body>
     <h1>Bonjour et bienvenue sur ma page</h1>
         <form action="home.html" method="GET">
             <div>
-                <label for="full_name" class="form-label">Votre nom</label>
-                <input type="text" class="form-control" id="full_name" name="full_name"
+                <label for="full_name">Votre nom</label>
+                <input type="text" id="full_name" name="full_name"
                 aria-describedby="full_name-help">
-                <div id="full_name-help" class="form-text">Ou votre pseudo</div>
+                <div id="full_name-help">Ou votre pseudo</div>
             </div>
             <div>
-                <label for="email" class="form-label">Votre email</label>
-                <input class="form-control" id="email" name="email">
+                <label for="email">Votre email</label>
+                <input id="email" name="email">
             </div>
             <div>
-                <label for="message" class="form-label">Votre message</label>
-                <textarea class="form-control" placeholder="Exprimez vous" id="message" name="message"></textarea>
+                <label for="message">Votre message</label>
+                <textarea   placeholder="Exprimez vous" id="message" name="message"></textarea>
             </div>
             <div>
-                <label for="country" class="form-label">Votre pays</label>
+                <label for="country">Votre pays</label>
                 <select name="country" id="country">
                     <option value="France" selected>France</option>
                     <option value="Belgique">Belgique</option>
@@ -33,7 +37,7 @@
                 </select>
             </div>
             <div>
-                <label for="cg" class="form-label">Conditions générales</label>
+                <label for="cg">Conditions générales</label>
                 <input type="checkbox" name="cg">
                 Amet commodo nulla duis cupidatat officia tempor ullamco dolore culpa exercitation ut dolor exercitation id. Anim culpa nisi nulla anim ad quis sunt consequat. Voluptate aliqua Lorem sint excepteur ut occaecat do ut.
             </div>
